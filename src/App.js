@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SelectField from "./components/common/SelectField";
+import { convertToLowerCase } from "@vimala-siravi/my-library";
 
 function App() {
   const data = [
@@ -17,7 +18,9 @@ function App() {
 
   return (
     <div className="px-2 py-2">
-      <h1 className="ml-5 text-center font-bold">Dropdown component</h1>
+      <h1 className="ml-5 text-center font-bold">
+        {convertToLowerCase("DROPDOWN")}
+      </h1>
       <div className="ml-5 mt-5">Selected color is {color}</div>
       <SelectField
         name="Colors"
