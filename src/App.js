@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SelectField from "./components/common/SelectField";
-import { convertToLowerCase } from "@vimala-siravi/my-library";
+import { convertToLowerCase } from "tscommon-components";
 
 function App() {
   const data = [
