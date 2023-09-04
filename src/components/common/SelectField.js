@@ -1,7 +1,7 @@
-import { FormControl } from "@vimala-siravi/my-library";
-import { InputLabel } from "@vimala-siravi/my-library";
-import { Select } from "@vimala-siravi/my-library";
-import { MenuItem } from "@vimala-siravi/my-library";
+import { FormControl } from "tscommon-components";
+import { InputLabel } from "tscommon-components";
+import { Select } from "tscommon-components";
+import { MenuItem } from "tscommon-components";
 
 export default function SelectField({
   name,
